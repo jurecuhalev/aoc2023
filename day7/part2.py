@@ -18,7 +18,6 @@ class CardHand:
     def type(self):
         cards = self.cards
         if "J" in cards:
-            ic(cards)
             if cards == "JJJJJ":
                 cards = "AAAAA"
             else:
